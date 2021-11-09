@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.source = { :git => "https://github.com/xq931014/MGJRouter_NgariDoctor.git", :tag => "0.0.1" }
 
-  s.source_files = "Pod/Classes/**/*"
+  s.source_files = "MGJRouter/*.{h,m}"
 
   s.requires_arc = true
 
